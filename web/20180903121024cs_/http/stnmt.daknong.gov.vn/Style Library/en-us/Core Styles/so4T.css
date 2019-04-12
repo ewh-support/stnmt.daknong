@@ -6,6 +6,9 @@ div#s4-workspace1{
 	width:auto;
 	background-color:#84beff;
 }
+a{
+	text-decoration: none !important;
+}
 li div.main-level a, li div.main-level a:link, li div.main-level a:visited{
 }
 li.LvSelected{
