@@ -162,8 +162,8 @@ div#UnionNews_main_mode2 div.union_main_image img{
 	height:296px;
 }
 div#UnionNews_menu_mode2 .union_image_thumb img{
-	width:68px;
-	height:48px;
+	width:70px;
+	height:60px;
 	border:1px #8ebedd solid;
 }
 div#UnionNews_Container_mode2 div#UnionNews_menu_mode2{
@@ -208,7 +208,7 @@ div#UnionNews_menu_mode2 div.Union_block a:hover{
 	color:#d00!important;
 }
 div#UnionNews_menu_mode2 div.union_image_thumb ul li{
-	padding:14px 7px 2px;
+	padding:5px 0px 0px 5px;
 	background-image:none;
 }
 div#UnionNews_menu_mode2 table.lv_union_table_menuheader{
@@ -266,7 +266,6 @@ div.thongbao div.container_top_left1{
 div.thongbao-detail td.LItem a, div.thongbao-detail td.LItem a:link{
 	color:#4a7db5;
 	background: url("http://web.archive.org/web/20181219135837im_/http://stnmt.daknong.gov.vn/imgSoTTTT/images/iconTB1.png") no-repeat 0 2px;
-	padding-left:18px;
 	display:block;
 }
 /***/
