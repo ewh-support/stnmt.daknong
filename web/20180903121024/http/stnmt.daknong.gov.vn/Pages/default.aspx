@@ -212,11 +212,11 @@ var L_Menu_BaseUrl = "";
                 accesskey="Y">
                 Skip Ribbon Commands</a>
         </div>
-        <div class="s4-notdlg noindex">
+        <!-- <div class="s4-notdlg noindex">
             <a href="javascript:;" onclick="javascript:this.href='#mainContent';" class="ms-SkiptoMainContent"
                 accesskey="X">
                 Skip to main content</a>
-        </div>
+        </div> -->
         <a id="HiddenAnchor" href="javascript:;" style="display:none;"></a>
 
         <div id="s4-ribbonrow" class="s4-pr s4-ribbonrowhidetitle1" style="display:none">
@@ -3301,141 +3301,19 @@ var L_Menu_BaseUrl = "";
                                                                 <div class="ppy" id="ppy1">
                                                                     <ul class="ppy-imglist">
 
-                                                                        <li><a
-                                                                                href="http://web.archive.org/web/20180903121024/http://stnmt.daknong.gov.vn/HoatDongAnh/Thư%20viện%20ảnh/_w/images1428381_3_jpg.jpg">
-                                                                                <img src="http://web.archive.org/web/20180903121024im_/http://stnmt.daknong.gov.vn/HoatDongAnh/Thư%20viện%20ảnh/_w/images1428381_3_jpg.jpg"
-                                                                                    linksrc="/Pages/hoat-dong-anh.aspx"
-                                                                                    alt="" />
+                                                                        <li><a href="#">
+                                                                                <img src="/img/stn/tva/1.jpg"
+                                                                                    linksrc="#" alt="">
                                                                             </a><span class="ppy-extcaption"><strong>
-                                                                                </strong><br />
-                                                                                <br />
-                                                                            </span></li>
-
-                                                                        <li><a
-                                                                                href="http://web.archive.org/web/20180903121024/http://stnmt.daknong.gov.vn/HoatDongAnh/Thư%20viện%20ảnh/_w/IMG_3175_JPG.jpg">
-                                                                                <img src="http://web.archive.org/web/20180903121024im_/http://stnmt.daknong.gov.vn/HoatDongAnh/Thư%20viện%20ảnh/_w/IMG_3175_JPG.jpg"
-                                                                                    linksrc="/Pages/hoat-dong-anh.aspx"
-                                                                                    alt="" />
-                                                                            </a><span class="ppy-extcaption"><strong>
-                                                                                </strong><br />
-                                                                                <br />
-                                                                            </span></li>
-
-                                                                        <li><a
-                                                                                href="http://web.archive.org/web/20180903121024/http://stnmt.daknong.gov.vn/HoatDongAnh/Thư%20viện%20ảnh/_w/quang%20canh%20buoi%20lam%20viec_JPG.jpg">
-                                                                                <img src="http://web.archive.org/web/20180903121024im_/http://stnmt.daknong.gov.vn/HoatDongAnh/Thư%20viện%20ảnh/_w/quang%20canh%20buoi%20lam%20viec_JPG.jpg"
-                                                                                    linksrc="/Pages/hoat-dong-anh.aspx"
-                                                                                    alt="" />
-                                                                            </a><span class="ppy-extcaption"><strong>
-                                                                                </strong><br />
-                                                                                <br />
-                                                                            </span></li>
-
-                                                                        <li><a
-                                                                                href="http://web.archive.org/web/20180903121024/http://stnmt.daknong.gov.vn/HoatDongAnh/Thư%20viện%20ảnh/_w/image003_jpg.jpg">
-                                                                                <img src="http://web.archive.org/web/20180903121024im_/http://stnmt.daknong.gov.vn/HoatDongAnh/Thư%20viện%20ảnh/_w/image003_jpg.jpg"
-                                                                                    linksrc="/Pages/hoat-dong-anh.aspx"
-                                                                                    alt="" />
-                                                                            </a><span class="ppy-extcaption"><strong>
-                                                                                </strong><br />
-                                                                                <br />
-                                                                            </span></li>
-
-                                                                        <li><a
-                                                                                href="http://web.archive.org/web/20180903121024/http://stnmt.daknong.gov.vn/HoatDongAnh/Thư%20viện%20ảnh/_w/IMG_3200_JPG.jpg">
-                                                                                <img src="http://web.archive.org/web/20180903121024im_/http://stnmt.daknong.gov.vn/HoatDongAnh/Thư%20viện%20ảnh/_w/IMG_3200_JPG.jpg"
-                                                                                    linksrc="/Pages/hoat-dong-anh.aspx"
-                                                                                    alt="" />
-                                                                            </a><span class="ppy-extcaption"><strong>
-                                                                                </strong><br />
-                                                                                <br />
-                                                                            </span></li>
-
-                                                                        <li><a
-                                                                                href="http://web.archive.org/web/20180903121024/http://stnmt.daknong.gov.vn/HoatDongAnh/Thư%20viện%20ảnh/_w/IMG_3195_JPG.jpg">
-                                                                                <img src="http://web.archive.org/web/20180903121024im_/http://stnmt.daknong.gov.vn/HoatDongAnh/Thư%20viện%20ảnh/_w/IMG_3195_JPG.jpg"
-                                                                                    linksrc="/Pages/hoat-dong-anh.aspx"
-                                                                                    alt="" />
-                                                                            </a><span class="ppy-extcaption"><strong>
-                                                                                </strong><br />
-                                                                                <br />
-                                                                            </span></li>
-
-                                                                        <li><a
-                                                                                href="http://web.archive.org/web/20180903121024/http://stnmt.daknong.gov.vn/HoatDongAnh/Thư%20viện%20ảnh/_w/sm_jpg.jpg">
-                                                                                <img src="http://web.archive.org/web/20180903121024im_/http://stnmt.daknong.gov.vn/HoatDongAnh/Thư%20viện%20ảnh/_w/sm_jpg.jpg"
-                                                                                    linksrc="/Pages/hoat-dong-anh.aspx"
-                                                                                    alt="" />
-                                                                            </a><span class="ppy-extcaption"><strong>
-                                                                                </strong><br />
-                                                                                <br />
-                                                                            </span></li>
-
-                                                                        <li><a
-                                                                                href="http://web.archive.org/web/20180903121024/http://stnmt.daknong.gov.vn/HoatDongAnh/Thư%20viện%20ảnh/_w/29303_jpg.jpg">
-                                                                                <img src="http://web.archive.org/web/20180903121024im_/http://stnmt.daknong.gov.vn/HoatDongAnh/Thư%20viện%20ảnh/_w/29303_jpg.jpg"
-                                                                                    linksrc="/Pages/hoat-dong-anh.aspx"
-                                                                                    alt="" />
-                                                                            </a><span class="ppy-extcaption"><strong>
-                                                                                </strong><br />
-                                                                                <br />
-                                                                            </span></li>
-
-                                                                        <li><a
-                                                                                href="http://web.archive.org/web/20180903121024/http://stnmt.daknong.gov.vn/HoatDongAnh/Thư%20viện%20ảnh/_w/a_jpg.jpg">
-                                                                                <img src="http://web.archive.org/web/20180903121024im_/http://stnmt.daknong.gov.vn/HoatDongAnh/Thư%20viện%20ảnh/_w/a_jpg.jpg"
-                                                                                    linksrc="/Pages/hoat-dong-anh.aspx"
-                                                                                    alt="" />
-                                                                            </a><span class="ppy-extcaption"><strong>
-                                                                                </strong><br />
-                                                                                <br />
-                                                                            </span></li>
-
-                                                                        <li><a
-                                                                                href="http://web.archive.org/web/20180903121024/http://stnmt.daknong.gov.vn/HoatDongAnh/Thư%20viện%20ảnh/_w/IMG_2141_JPG.jpg">
-                                                                                <img src="http://web.archive.org/web/20180903121024im_/http://stnmt.daknong.gov.vn/HoatDongAnh/Thư%20viện%20ảnh/_w/IMG_2141_JPG.jpg"
-                                                                                    linksrc="/Pages/hoat-dong-anh.aspx"
-                                                                                    alt="" />
-                                                                            </a><span class="ppy-extcaption"><strong>
-                                                                                </strong><br />
-                                                                                <br />
-                                                                            </span></li>
-
-                                                                        <li><a
-                                                                                href="http://web.archive.org/web/20180903121024/http://stnmt.daknong.gov.vn/HoatDongAnh/Thư%20viện%20ảnh/_w/IMG_3886_JPG.jpg">
-                                                                                <img src="http://web.archive.org/web/20180903121024im_/http://stnmt.daknong.gov.vn/HoatDongAnh/Thư%20viện%20ảnh/_w/IMG_3886_JPG.jpg"
-                                                                                    linksrc="/Pages/hoat-dong-anh.aspx"
-                                                                                    alt="" />
-                                                                            </a><span class="ppy-extcaption"><strong>
-                                                                                </strong><br />
-                                                                                <br />
-                                                                            </span></li>
-
-                                                                        <li><a
-                                                                                href="http://web.archive.org/web/20180903121024/http://stnmt.daknong.gov.vn/HoatDongAnh/Thư%20viện%20ảnh/_w/IMG_3868_JPG.jpg">
-                                                                                <img src="http://web.archive.org/web/20180903121024im_/http://stnmt.daknong.gov.vn/HoatDongAnh/Thư%20viện%20ảnh/_w/IMG_3868_JPG.jpg"
-                                                                                    linksrc="/Pages/hoat-dong-anh.aspx"
-                                                                                    alt="" />
-                                                                            </a><span class="ppy-extcaption"><strong>
-                                                                                </strong><br />
-                                                                                <br />
-                                                                            </span></li>
-
-                                                                        <li><a
-                                                                                href="http://web.archive.org/web/20180903121024/http://stnmt.daknong.gov.vn/HoatDongAnh/Thư%20viện%20ảnh/_w/IMG_2197_JPG.jpg">
-                                                                                <img src="http://web.archive.org/web/20180903121024im_/http://stnmt.daknong.gov.vn/HoatDongAnh/Thư%20viện%20ảnh/_w/IMG_2197_JPG.jpg"
-                                                                                    linksrc="/Pages/hoat-dong-anh.aspx"
-                                                                                    alt="" />
-                                                                            </a><span class="ppy-extcaption"><strong>
-                                                                                </strong><br />
-                                                                                <br />
-                                                                            </span></li>
+                                                                                </strong><br>
+                                                                                <br>
+                                                                            </span>
+                                                                        </li>
 
                                                                     </ul>
                                                                     <div class="ppy-outer" style="float: left">
                                                                         <div class="title-album">
-                                                                            <a
-                                                                                href="http://web.archive.org/web/20180903121024/http://stnmt.daknong.gov.vn/Pages/hoat-dong-anh.aspx">
+                                                                            <a href="#">
                                                                                 Thư viện ảnh</a>
                                                                         </div>
                                                                         <div class="ppy-stage">
