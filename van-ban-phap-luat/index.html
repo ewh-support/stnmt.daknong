@@ -1025,7 +1025,122 @@
                                                               });
       
                                                           });
-                                                      });</script><div class="wf-notify">Dữ liệu đang cập nhật</div></div></div></td></tr></tbody></table></td></tr></tbody></table></div><div class="zoneCent" style="float: left;    width: 565px;padding-left: 3px"><div class="allPost"><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td id="MSOZoneCell_WebPartWPQ9" valign="top" class="s4-wpcell-plain"><table class="s4-wpTopTable" border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top"><div webpartid="5a931e5e-9ad0-4283-85c1-b1b338da96b8" haspers="false" id="WebPartWPQ9" width="100%" class="ms-WPBody noindex" allowdelete="false"><div id="ctl00_m_g_5a931e5e_9ad0_4283_85c1_b1b338da96b8"><div style="CURSOR: pointer;    background-color: #4a7db5" class="container_top_left1" xmlns:rs="urn:schemas-microsoft-com:rowset" xmlns:z="#RowsetSchema" xmlns:cs="urn:my-scripts"><div class="div_header_style1"><a style="TEXT-TRANSFORM: uppercase; FONT-SIZE: 11px; FONT-WEIGHT: bold; TEXT-DECORATION: none   ; padding-left: 0px !important;    width: 300px" class="a_header_style1">Môi trường</a></div></div><table border="0" cellspacing="0" cellpadding="0" width="100%" xmlns:rs="urn:schemas-microsoft-com:rowset" xmlns:z="#RowsetSchema" xmlns:cs="urn:my-scripts"><tbody><tr><td class="TitleFront"><a href="/tong-cuc-moi-truong-va-hoi-doc-hoc-moi-truong-va-hoa-hoc-khu-vuc-chau-a-thai-binh-duong-ky-ket-hop-tac-ve-linh-vuc-moi-truong">Tổng cục Môi trường và Hội Độc học môi trường và Hóa học khu vực châu Á – Thái Bình Dương ký kết hợp tác về lĩnh vực môi trường<span class="ShowDate"> (30.05.2019 12:21)</span></a></td></tr><tr><td style="PADDING-BOTTOM: 10px" class="tinHT"><div style="TEXT-ALIGN: justify" class="ContentText">&nbsp; &nbsp;<br/></div></td></tr></tbody></table></div></div></td></tr></table><div class="ms-PartSpacingVertical"></div></td></tr></table></div></div><div class="dRight" style="float: right;width: 185px"><menu class="ms-SrvMenuUI"><ie:menuitem id="MSOMenu_Help" iconsrc="/_layouts/images/HelpIcon.gif" onmenuclick="MSOWebPartPage_SetNewWindowLocation(MenuWebPart.getAttribute('helpLink'), MenuWebPart.getAttribute('helpMode'))" text="Help" type="option" style="display:none"></ie:menuitem></menu><div class="wpVBM"><div id="ctl00_PlaceHolderMain_g_5979446f_50fc_4e0d_9ae5_6275c5043013" style="width:185px" __markuptype="vsattributemarkup" webpart="true" __webpartid="{5979446f-50fc-4e0d-9ae5-6275c5043013}"><script type="text/javascript">function _doPostBack(eventTarget, eventArgument) {
+                                                      });</script><div class="wf-notify">Dữ liệu đang cập nhật</div></div></div></td></tr></tbody></table></td></tr></tbody></table></div><div class="zoneCent" style="width: 560px;
+    float: left;
+    padding-left: 2px;
+    border: 1px solid"><table width="100%" cellpadding="0" cellspacing="0" border="0"><tbody><tr><td id="MSOZoneCell_WebPartctl00_m_g_e9607d59_fe79_46f8_b4f2_0e73c950c477" valign="top" class="s4-wpcell-plain"><table class="s4-wpTopTable" border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td valign="top"><div webpartid="e9607d59-fe79-46f8-b4f2-0e73c950c477" haspers="false" id="WebPartctl00_m_g_e9607d59_fe79_46f8_b4f2_0e73c950c477" width="100%" class="ms-WPBody" allowdelete="false" allowexport="false"><div id="ctl00_m_g_e9607d59_fe79_46f8_b4f2_0e73c950c477"><script type="text/javascript">function _doPostBack(eventTarget, eventArgument) {
+                                                            theForm.__EVENTTARGET.value = eventTarget;
+                                                            theForm.__EVENTARGUMENT.value = eventArgument;
+                                                            theForm.submit();
+                                                        }
+
+                                                        function _moveItemFromAtoB_SPLookup(ListBoxA, ListBoxB) {
+                                                            var x = document.getElementById(ListBoxA);
+                                                            var y = document.getElementById(ListBoxB);
+                                                            for (i = 0; i < x.options.length; i++) {
+                                                                if (x.options[i].selected) {
+                                                                    var item = document.createElement("option");
+                                                                    item.text = x.options[i].text;
+                                                                    item.value = x.options[i].value;
+                                                                    y.options.add(item);
+                                                                    x.remove(i);
+                                                                    i--;
+                                                                }
+                                                            }
+                                                            y.selectedIndex = y.options.length - 1;
+                                                            y.focus();
+                                                        }
+
+                                                        function _saveRecord(m_lookup, m_select, saveType) {
+                                                            var strSelect = document.getElementById(m_select).value;
+                                                            var strLookup = document.getElementById(m_lookup).value;
+                                                            var value1 = getLookupSelectValues(strSelect);
+                                                            var value2 = getLookupSelectValues(strLookup);
+                                                            var value = value1 + value2;
+                                                            _doPostBack(saveType, value);
+                                                        }
+
+                                                        function getLookupSelectValues(str) {
+                                                            var sourceIDs = new Array();
+                                                            if (str.length > 0)
+                                                                if (str.substring(";") == -1)
+                                                                    sourceIDs[0] = str;
+                                                                else sourceIDs = str.split(";");
+                                                            var value = "";
+                                                            for (i = 0; i < sourceIDs.length; i++) {
+                                                                var listBox = document.getElementById(sourceIDs[i]);
+                                                                value = value + sourceIDs[i];
+                                                                for (j = 0; j < listBox.length; j++) {
+                                                                    value = value + ";#" + listBox.options[j].value;
+                                                                }
+                                                                value = value + sourceIDs[i];
+                                                            }
+                                                            return value;
+                                                        }
+
+                                                        function CustomList_refreshCaptcha() {
+                                                            _doPostBack('CustomList_refreshCaptcha',
+                                                                'ctl00_m_g_e9607d59_fe79_46f8_b4f2_0e73c950c477_ctl00_selectedLookupControl'
+                                                                );
+                                                        }
+
+                                                        function loadCalendar() {
+                                                            var itemChosen = document.getElementById(
+                                                                'ctl00_m_g_e9607d59_fe79_46f8_b4f2_0e73c950c477_ctl00_cbCondition'
+                                                                );
+                                                            var calendar = document.getElementById(
+                                                                'ctl00_m_g_e9607d59_fe79_46f8_b4f2_0e73c950c477_ctl00_searchByDate'
+                                                                );
+                                                            var searchcontent = document.getElementById(
+                                                                'ctl00_m_g_e9607d59_fe79_46f8_b4f2_0e73c950c477_ctl00_txtCongviec'
+                                                                );
+                                                            var itemValue = itemChosen.options[itemChosen.selectedIndex]
+                                                                .value;
+                                                            var typeIndex = itemValue.lastIndexOf(".");
+                                                            var type = itemValue.substr(typeIndex + 1, itemValue
+                                                                .length - typeIndex - 1);
+                                                            if (type == "DateTime") {
+                                                                calendar.style.display = "";
+                                                                searchcontent.disabled = false;
+                                                                searchcontent.style.backgroundColor = "white";
+                                                            } else {
+                                                                calendar.style.display = "none";
+                                                                searchcontent.disabled = false;
+                                                                searchcontent.style.backgroundColor = "white";
+                                                            }
+                                                        }
+
+                                                        function _getItem(eventTarget, m_object) {
+                                                            var value = document.getElementById(m_object).value;
+                                                            _doPostBack(eventTarget, value);
+                                                        }
+
+                                                        function txtCongViecEnter() {
+                                                            var button = document.getElementById(
+                                                                'ctl00_m_g_e9607d59_fe79_46f8_b4f2_0e73c950c477_ctl00_btTimkiem'
+                                                                );
+                                                            if (button != null) {
+                                                                if (window.event.keyCode == 13) {
+                                                                    window.event.returnValue = false;
+                                                                    window.event.cancel = true;
+                                                                    button.click();
+                                                                }
+                                                            }
+                                                        }
+
+                                                        function DeleteItem(target) {
+                                                            var confirmDelete = confirm("Xóa dữ liệu này?");
+                                                            if (confirmDelete == true) __doPostBack(target, '');
+                                                        }
+
+                                                        function DeleteItemID(target, Soid) {
+                                                            var confirmDelete = confirm("Bạn có chắc là muốn xoá ?");
+                                                            if (confirmDelete == true) __doPostBack(target, Soid);
+                                                        }</script><link type="text/css" rel="stylesheet" href="/css/vbpl.css"><div id="ctl00_m_g_e9607d59_fe79_46f8_b4f2_0e73c950c477_ctl00_dvVBPL"><div id="ctl00_m_g_e9607d59_fe79_46f8_b4f2_0e73c950c477_ctl00_dvBlockSearch"><table id="ctl00_m_g_e9607d59_fe79_46f8_b4f2_0e73c950c477_ctl00_tableBlockSearch" class="dvBlockSearch-tb" cellpadding="0" cellspacing="0" width="100%"><tbody><tr class="tr-title"><td class="dvVBPL-title" colspan="3">Tra cứu văn bản pháp luật&nbsp;</td></tr><tr id="ctl00_m_g_e9607d59_fe79_46f8_b4f2_0e73c950c477_ctl00_Noidungtim"><td class="dv-title"><span id="ctl00_m_g_e9607d59_fe79_46f8_b4f2_0e73c950c477_ctl00_LabelNoiDungTim">Nội dung tìm</span></td><td class="dv-input"><input name="ctl00$m$g_e9607d59_fe79_46f8_b4f2_0e73c950c477$ctl00$txtCongviec" type="text" id="ctl00_m_g_e9607d59_fe79_46f8_b4f2_0e73c950c477_ctl00_txtCongviec" class="style1" onkeypress="txtCongViecEnter()" style="background-color: white"></td><td><button id="ctl00_m_g_e9607d59_fe79_46f8_b4f2_0e73c950c477_ctl00_btTimkiem" class="bttk" onclick="__doPostBack('CustomList_btTimkiem_Click','')" style="height: 22px"><span id="ctl00_m_g_e9607d59_fe79_46f8_b4f2_0e73c950c477_ctl00_LabelTimKiem">Tìm kiếm</span></button></td></tr><tr id="ctl00_m_g_e9607d59_fe79_46f8_b4f2_0e73c950c477_ctl00_searchByDate" style="display: none"><td>Ngày gửi:</td><td><table><tbody><tr><td>Từ&nbsp;</td><td><script type="text/javascript">g_strDateTimeControlIDs[
+                                                                                                        "dtTuNgay"] =
+                                                                                                    "ctl00_m_g_e9607d59_fe79_46f8_b4f2_0e73c950c477_ctl00_dtTuNgay_dtTuNgayDate";</script><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="ms-dtinput"><label for="ctl00_m_g_e9607d59_fe79_46f8_b4f2_0e73c950c477_ctl00_dtTuNgay_dtTuNgayDate" style="display:none">Date</label><input name="ctl00$m$g_e9607d59_fe79_46f8_b4f2_0e73c950c477$ctl00$dtTuNgay$dtTuNgayDate" type="text" maxlength="45" id="ctl00_m_g_e9607d59_fe79_46f8_b4f2_0e73c950c477_ctl00_dtTuNgay_dtTuNgayDate" class="ms-input" autopostback="0"></td><td class="ms-dtinput"><a href="#" onclick="clickDatePicker(&quot;ctl00_m_g_e9607d59_fe79_46f8_b4f2_0e73c950c477_ctl00_dtTuNgay_dtTuNgayDate&quot;, &quot;\u002f_layouts\u002fiframe.aspx?&amp;cal=1&amp;lcid=1033&amp;langid=1033&amp;ww=0111110&amp;fdow=0&amp;fwoy=0&amp;hj=0&amp;swn=False&amp;minjday=109207&amp;maxjday=2666269&amp;date=&quot;, &quot;&quot;, event);return false;"><img id="ctl00_m_g_e9607d59_fe79_46f8_b4f2_0e73c950c477_ctl00_dtTuNgay_dtTuNgayDateDatePickerImage" src="/web/20180301002524im_/http://sldtbxh.daknong.gov.vn/_layouts/images/calendar.gif" border="0" alt="Select a date from the calendar."></a></td><td><iframe id="ctl00_m_g_e9607d59_fe79_46f8_b4f2_0e73c950c477_ctl00_dtTuNgay_dtTuNgayDateDatePickerFrame" src="/web/20180301002524if_/http://sldtbxh.daknong.gov.vn/_layouts/images/blank.gif" frameborder="0" scrolling="no" style="DISPLAY:none;POSITION:absolute; width:200px; Z-INDEX:101" title="Select a date from the calendar." __idm_frm__="71"></iframe></td></tr></tbody></table></td><td>&nbsp;đến</td><td><script type="text/javascript">g_strDateTimeControlIDs[
+                                                                                                        "dtDenNgay"] =
+                                                                                                    "ctl00_m_g_e9607d59_fe79_46f8_b4f2_0e73c950c477_ctl00_dtDenNgay_dtDenNgayDate";</script><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="ms-dtinput"><label for="ctl00_m_g_e9607d59_fe79_46f8_b4f2_0e73c950c477_ctl00_dtDenNgay_dtDenNgayDate" style="display:none">Date</label><input name="ctl00$m$g_e9607d59_fe79_46f8_b4f2_0e73c950c477$ctl00$dtDenNgay$dtDenNgayDate" type="text" maxlength="45" id="ctl00_m_g_e9607d59_fe79_46f8_b4f2_0e73c950c477_ctl00_dtDenNgay_dtDenNgayDate" class="ms-input" autopostback="0"></td><td class="ms-dtinput"><a href="#" onclick="clickDatePicker(&quot;ctl00_m_g_e9607d59_fe79_46f8_b4f2_0e73c950c477_ctl00_dtDenNgay_dtDenNgayDate&quot;, &quot;\u002f_layouts\u002fiframe.aspx?&amp;cal=1&amp;lcid=1033&amp;langid=1033&amp;ww=0111110&amp;fdow=0&amp;fwoy=0&amp;hj=0&amp;swn=False&amp;minjday=109207&amp;maxjday=2666269&amp;date=&quot;, &quot;&quot;, event);return false;"><img id="ctl00_m_g_e9607d59_fe79_46f8_b4f2_0e73c950c477_ctl00_dtDenNgay_dtDenNgayDateDatePickerImage" src="/web/20180301002524im_/http://sldtbxh.daknong.gov.vn/_layouts/images/calendar.gif" border="0" alt="Select a date from the calendar."></a></td><td><iframe id="ctl00_m_g_e9607d59_fe79_46f8_b4f2_0e73c950c477_ctl00_dtDenNgay_dtDenNgayDateDatePickerFrame" src="/web/20180301002524if_/http://sldtbxh.daknong.gov.vn/_layouts/images/blank.gif" frameborder="0" scrolling="no" style="DISPLAY:none;POSITION:absolute; width:200px; Z-INDEX:101" title="Select a date from the calendar." __idm_frm__="72"></iframe></td></tr></tbody></table></td></tr></tbody></table></td><td>&nbsp;</td></tr><tr id="ctl00_m_g_e9607d59_fe79_46f8_b4f2_0e73c950c477_ctl00_timtheo"><td class="dv-title"><span id="ctl00_m_g_e9607d59_fe79_46f8_b4f2_0e73c950c477_ctl00_LabelTimTheo">Tìm theo</span></td><td class="dv-input"><select name="ctl00$m$g_e9607d59_fe79_46f8_b4f2_0e73c950c477$ctl00$cbCondition" id="ctl00_m_g_e9607d59_fe79_46f8_b4f2_0e73c950c477_ctl00_cbCondition" class="style1" onchange="loadCalendar()"><option selected value="0">---Toàn bộ---</option><option value="Chính phủ">Chính phủ</option><option value="Bộ Lao động - TBXH">Bộ Lao động - TBXH</option><option value="UBND tỉnh">UBND tỉnh</option><option value="Tỉnh ủy">Tỉnh ủy</option><option value="Sở Lao động - TBXH">Sở Lao động - TBXH</option><option value="Lĩnh vực.">Lĩnh vực khác</option></select></td><td>&nbsp;</td></tr><tr id="ctl00_m_g_e9607d59_fe79_46f8_b4f2_0e73c950c477_ctl00_LacVietSPList_AdvanceSearch_Row_0"><td class="dv-title">Lĩnh vực:</td><td class="dv-input"><select name="ctl00$m$g_e9607d59_fe79_46f8_b4f2_0e73c950c477$ctl00$ctl18" onchange="var selectedValue = document.getElementById('ctl00_m_g_e9607d59_fe79_46f8_b4f2_0e73c950c477_ctl00_LacVietSPList_AdvanceSearch_SelectedValue_0'); selectedValue.value = this.options[this.selectedIndex].value;"><option selected value="">---Toàn bộ---</option><option value="Người có công">Người có công</option><option value="Bảo trợ xã hội và phòng, chống tên nạn">Bảo trợ xã hội và phòng, chống tên nạn</option><option value=" Lao động - Việc làm và giáo dục nghề nghiệp">Lao động - Việc làm và giáo dục nghề nghiệp</option><option value="Trẻ em và bình đẳng giới">Trẻ em và bình đẳng giới</option><option value="Thanh tra">Thanh tra</option><option value="Văn phòng Sở">Văn phòng Sở</option><option value="Kế hoạch - Tài chính">Kế hoạch - Tài chính</option><option value="Lĩnh vực khác">Lĩnh vực khác</option></select><input type="hidden" name="ctl00$m$g_e9607d59_fe79_46f8_b4f2_0e73c950c477$ctl00$LacVietSPList_AdvanceSearch_SelectedValue_0" id="ctl00_m_g_e9607d59_fe79_46f8_b4f2_0e73c950c477_ctl00_LacVietSPList_AdvanceSearch_SelectedValue_0"></td><td>&nbsp;</td></tr></tbody></table></div><div id="ctl00_m_g_e9607d59_fe79_46f8_b4f2_0e73c950c477_ctl00_dvBlockVBPL"><div></div><div id="ctl00_m_g_e9607d59_fe79_46f8_b4f2_0e73c950c477_ctl00_dvtotalbtn" class="title_VBPL"><div id="ctl00_m_g_e9607d59_fe79_46f8_b4f2_0e73c950c477_ctl00_tongso"></div></div><table class="ds_VBPL" rules="rows" cellpadding="0" cellspacing="0" border="0"><tbody><tr class="row_title"><td class="HD_kyhieu" width="">Số ký hiệu</td><td class="HD_LinhVuc" width="">Ngày ban hành</td><td class="HD_Tên văn bản" width="">Tên văn bản</td><td class="HD_taifile" width="">File đính kèm</td></tr></tbody></table></div></div><script type="text/javascript">loadCalendar();</script></div></div></td></tr></tbody></table></td></tr></tbody></table></div><div class="dRight" style="float: right;width: 185px"><menu class="ms-SrvMenuUI"><ie:menuitem id="MSOMenu_Help" iconsrc="/_layouts/images/HelpIcon.gif" onmenuclick="MSOWebPartPage_SetNewWindowLocation(MenuWebPart.getAttribute('helpLink'), MenuWebPart.getAttribute('helpMode'))" text="Help" type="option" style="display:none"></ie:menuitem></menu><div class="wpVBM"><div id="ctl00_PlaceHolderMain_g_5979446f_50fc_4e0d_9ae5_6275c5043013" style="width:185px" __markuptype="vsattributemarkup" webpart="true" __webpartid="{5979446f-50fc-4e0d-9ae5-6275c5043013}"><script type="text/javascript">function _doPostBack(eventTarget, eventArgument) {
                 theForm.__EVENTTARGET.value = eventTarget;
                 theForm.__EVENTARGUMENT.value = eventArgument;
                 theForm.submit();
