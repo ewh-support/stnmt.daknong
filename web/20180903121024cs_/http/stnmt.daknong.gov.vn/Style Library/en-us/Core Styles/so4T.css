@@ -67,7 +67,7 @@ div.dRight{
 /***/
 div.logoS{
 	height:141px;
-	background: url("/img/stn/banner.jpg") no-repeat 1px 0px;	
+	/* background: url("/img/stn/banner.jpg") no-repeat 1px 0px;	 */
 }
 div.ms-logo a{
 	text-indent:-9999px;
@@ -328,7 +328,7 @@ table.ms-sbtable td.ms-sbcell input{
 }
 td.ms-sbgo.ms-sbcell{
 	width:31px;
-	background: url("http://web.archive.org/web/20181219135837im_/http://stnmt.daknong.gov.vn/imgSoTTTT/images/sGo.png") no-repeat left top;
+	background: url("/img/sGo.png") no-repeat left top;
 	height:26px;
 	border:0px;
 }
@@ -532,7 +532,7 @@ div.ttMain{
 	padding:0px;
 }
 .allowMenu img{
-	width:220px!important;
+	width:186px!important;
 	height:auto;
 }
 div.searchLB{

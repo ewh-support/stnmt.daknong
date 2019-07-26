@@ -1736,6 +1736,9 @@ margin-right:17px;
 float:right;
 margin-right:2px;
 margin-top:2px;
+background-image: url(/img/input-search.png);
+
+background-repeat: no-repeat;
 }
 .s4-searchbox .ms-sbtable-ex{
 float:left !important;
