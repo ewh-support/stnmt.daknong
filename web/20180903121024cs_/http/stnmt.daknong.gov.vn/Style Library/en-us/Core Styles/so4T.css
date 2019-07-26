@@ -312,7 +312,7 @@ li div.lv_topnews_mode3_ul_li_divTitle a:link{
 }
 td.ms-sbcell{
 	width:204px;
-	background: url("http://web.archive.org/web/20181219135837im_/http://stnmt.daknong.gov.vn/imgSoTTTT/images/bgSearch.png") no-repeat left top;
+	background: url("/img/input-search.png") no-repeat left top;
 	height:26px;
 }
 td.ms-sbgo.ms-sbcell{
